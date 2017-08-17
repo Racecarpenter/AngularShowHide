@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  showMes = true;
+  somePrice = 5;
+  someDate = new Date(1983, 3, 4);
+  listOfThings = ['blah', 'quah', 'jah', 'dawh']
+
+  falsey () {
+    this.showMes = false;
+  }
+  truthy () {
+    this.showMes = true;
+  }
 }
